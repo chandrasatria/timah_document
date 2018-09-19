@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include timah_document *.css
+recursive-include timah_document *.csv
+recursive-include timah_document *.html
+recursive-include timah_document *.ico
+recursive-include timah_document *.js
+recursive-include timah_document *.json
+recursive-include timah_document *.md
+recursive-include timah_document *.png
+recursive-include timah_document *.py
+recursive-include timah_document *.svg
+recursive-include timah_document *.txt
+recursive-exclude timah_document *.pyc
